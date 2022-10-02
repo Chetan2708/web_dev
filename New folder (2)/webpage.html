@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chetan Gupta Web developer</title>
+
+</head>
+ 
+<body>
+<h1 id="mainhead" class ="red black">Chetan Gupta 
+    <!-- multiple classes is possible but id is not multiple      . is for class and # is for id  -->
+</h1>
+
+    <p> To know more about chetan : -<button type="button"
+            onclick="alert('Do you want to open chetan gupta linkedin')"><a
+                href="https://www.linkedin.com/in/chetan-gupta-7a7951200/" target="_blank">Visit my linked
+                in</a></button>
+    </p>
+    <h3>What are the things that i like?</h3>
+    <ul>
+        <li> i like basketball </li>
+        <li>i like coding </li>
+    </ul>
+    <h3> Things that i don't like: - </h3>
+    <ol>
+        <li>nothing i like everything</li>
+        <li>i dont like nandru</li>
+        <li>bas</li>
+    </ol>
+
+    <h2>
+        Hi! this is my FB progfile , have a look -----<button type='button' onclick="alert('Conitinue?)"><a
+                href="https://www.facebook.com/profile.php?id=100012327823451" target="_blank">facebook
+                profile</a></button>
+    </h2>
+    <img src="https://images.unsplash.com/photo-1662671541749-5c258567a5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NDY4NTQxNw&ixlib=rb-1.2.1&q=80&w=1080"
+        height=" 200 " width="200">
+
+
+    <h3> Contact us</h3>
+    <form action="backend.py">
+
+        <div>Name : <input type="text" name="myNAME"></div>
+        <!-- name is for backend to know which input are we calling -->
+        <div> phone number : <input type="tel" name="myphn"></div>
+
+        <div>Email : <input type="email" name="myem"></div>
+
+        <div>
+            Male : <input type="radio" name="gender">Female:<input type="radio" name="gender">
+        </div>
+
+        <div> <label for="check"> Are u elligible?</label><input type="checkbox" id="check">
+            <!-- for clicking on the text , and getting it checked we used label  -->
+            <!-- for is used in label and id is used in input  -->
+        </div>
+        <div><input type="submit" value="Submit Now">
+            <input type="reset" value="Reset now">
+        </div>
+        <label for="car">Car</label>
+        <select name="carr" id="car">
+            <option value="ind">Indica</option>
+            <!-- creating drop menu  -->
+            <option value="swf">swift</option>
+        </select>
+    </form>
+    <p> entities can be written using ampersand &copy; &pound;</p>
+    <p> empty character &#8203;</p>
+</body>
